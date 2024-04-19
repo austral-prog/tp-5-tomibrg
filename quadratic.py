@@ -37,7 +37,3 @@ def derivation(a, b, c):
         return f"f'(x) = {2*a} * X"
     else:
         return f"f'(x) = {a * 2} * X + {b}"
-    elif b == 0:
-        return f"f'(x) = {2*a} * X"
-    else:
-        return f"f'(x) = {a * 2} * X + {b}"
