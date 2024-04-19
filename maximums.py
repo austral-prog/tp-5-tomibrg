@@ -2,7 +2,7 @@
 
 def max_of_two(x, y):
     """Given x and y, that are 2 numbers, return the biggest number."""
-        if x > y:
+    if x > y:
         return x
     else:
         return y
